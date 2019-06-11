@@ -1,0 +1,46 @@
+.CarPic1 {
+  width: 400px;
+  height: 350px;
+  margin: 10px;
+  background: transparent;
+}
+.CarPic2 {
+  width: 206px;
+  height: 180px;
+  margin: 10px;
+}
+.CarPic3 {
+  width: 206px;
+  height: 350px;
+  margin: 10px;
+  position: relative;
+}
+.CarPic1 img {
+  width: 400px;
+  height: 350px;
+  object-fit: cover;
+}
+
+.CarPic2 img {
+  width: 206px;
+  height: 180px;
+  object-fit: cover;
+}
+.CarPic3 img {
+  width: 206px;
+  height: 180px;
+  object-fit: cover;
+}
+.uploadPic {
+  bottom: 0;
+  right: 0;
+  position: absolute;
+
+  /* border: 2px solid #000; */
+}
+.uploadPic:hover {
+}
+.shop_addBg {
+  position: relative;
+  top: 100px;
+}
