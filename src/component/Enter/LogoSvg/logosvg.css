@@ -1,29 +1,27 @@
 .st01{fill:none;stroke:#fff;stroke-width:14;stroke-miterlimit:10;}
 .st1{fill:#fff;stroke:#fff;stroke-width:5;stroke-miterlimit:10;}
 .st21{fill:none;stroke:#fff;stroke-width:14;stroke-miterlimit:10;}
-path{
+.st211{fill:none;stroke:#fff;stroke-width:14;stroke-miterlimit:10;}
+.st1{
     stroke:#fff;
     fill:#fff;
     stroke-dasharray: 800;
-          
-    opacity: 10;
-    animation:animate 1.2s cubic-bezier(.85,.27,.83,.67)    ;
+    opacity: 1;
+    animation:animate123 1.2s cubic-bezier(.85,.27,.83,.67);
 }
 polyline{
     stroke:#fff;
 
     stroke-dasharray: 1800;
           
-    opacity: 10;
+    opacity: 1;
     animation:animate1 1.2s cubic-bezier(.85,.27,.83,.67)    ;
 }
-line{
+.st211{
     stroke:#fff;
-
 stroke-dasharray: 300;
-     
-opacity: 10;
-animation:animate2 1.2s cubic-bezier(.85,.27,.83,.67)    ;
+opacity: 1;
+animation: animate234 1.2s cubic-bezier(.85,.27,.83,.67)    ;
 }
 svg{
     width: 100%;
@@ -31,28 +29,23 @@ svg{
     margin: 0 auto;
 
 }
-@keyframes animate
+@keyframes animate123
 {
     0%{
-        opacity: 0;
+        opacity:0;
         fill:none;
         stroke-dashoffset: 800;        
         }
     80%{
-        opacity: 10;
-       
+        opacity:1;
         stroke-dashoffset: 0;  
-        fill: transparent;
-        
+        fill:transparent;
   }
     100%{
-        /* opacity: 10; */
         fill:#fff;
         stroke:#fff;
        
     }
-
-
 }
 @keyframes animate1
 {
@@ -62,11 +55,9 @@ svg{
         stroke-dashoffset: 1800;        
         }
     90%{
-        opacity: 10;
+        opacity: 1;
        
-        stroke-dashoffset: 0;  
-        
-         
+        stroke-dashoffset: 0;        
   }
     100%{
         /* opacity: 10; */
@@ -77,7 +68,7 @@ svg{
 
 
 }
-@keyframes animate2
+@keyframes animate234
 {
     0%{
         opacity: 0;
@@ -85,7 +76,7 @@ svg{
         stroke-dashoffset: 300;        
         }
     90%{
-        opacity: 10;
+        opacity: 1;
        
         stroke-dashoffset: 0;  
         

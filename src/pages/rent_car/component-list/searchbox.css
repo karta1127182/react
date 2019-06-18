@@ -79,7 +79,7 @@
   transform-origin: bottom left;
 }
 .linemiddle1 {
-  transition: 2s;
+  transition: 1.5s;
   width: 40%;
   height: 4px;
   position: absolute;
@@ -87,7 +87,7 @@
   top: calc(50% - 2px);
 }
 .linemiddle2 {
-  transition: 2s;
+  transition: 1.5s;
   width: 40%;
   height: 4px;
   position: absolute;
