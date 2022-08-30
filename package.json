@@ -13,7 +13,7 @@
     "express": "^4.17.1",
     "google-maps-react": "^2.0.2",
     "jquery": "^3.4.1",
-    "moment-timezone": "^0.5.25",
+    "moment-timezone": "^0.5.35",
     "mysql": "^2.17.1",
     "nodemon": "^1.19.0",
     "prettier": "^1.17.1",
